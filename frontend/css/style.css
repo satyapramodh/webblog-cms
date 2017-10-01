@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* Frontend CSS Document */
+body{
+	background-color:#999;
+}
+#header{
+	width:100%;
+	background-color:#930;
+	height:45px;
+	margin:10px 0px 10px 0px;
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	min-width:800px;
+	width:100%;
+}
+#header_content{
+	width:100%;
+	height:100%;
+	background-color: #930;
+}
+#logo{
+	width:40%;
+	float:left;
+	color:white;
+}
+#logo a{
+	text-decoration:none;
+	color:white;
+}
+#channel_menu{
+	float:right;
+	width:60%;
+	height:100%;
+	background-color: #930;
+	position: relative;
+}
+#channel_menu ul{
+	margin:0;
+	height:100%;
+	padding:0;
+	float:left;
+}
+#channel_menu ul li{
+	display:inline;
+	list-style:none;
+	height:100%;
+}
+#channel_menu ul li a{
+	float:left;
+	height:100%;
+	text-decoration:none;
+	color:white;
+	padding: 11px 11px;
+	background-color:#930;
+}
+#channel_menu ul li a:hover, .channel_menu ul li .current{
+    color:#fff;
+	border-width:thin;
+	height:100%;
+	border-right-style:dotted;
+	border-left-style:dotted;
+    background-color:#0b75b2;
+}
+
+#left_content{
+	width:46%;
+	height:100%;
+	background-color:#0099FF;
+	float:left;
+	margin-right:2%;
+	margin-left:2%;
+}
+
+#middle_content{
+	width:21%;
+	height:100%;
+	background-color:#393;
+	float:left;
+	margin-right:2%;
+	margin-left:2%;
+}
+
+#right_content{
+	width:21%;
+	height:100%;
+	background-color:#F63;
+	float:left;
+	margin-right:2%;
+	margin-left:2%;
+}
+#footer{
+	height:100px;
+	margin-top:10px;
+	background-color:#00cc99;
+	width:100%;
+	margin-bottom:0px;
+	text-align:center;
+}
