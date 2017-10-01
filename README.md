@@ -2,9 +2,8 @@
 
 >no.of post views  
 
-backend: 
-(channel list--edit,del,unpublish) Done! 
-
->>make ALL GETs to SESSION variables 
-(post list -- add,del,add these two in listpage) DONE! 
-(settings -- edit,create n del accts) DONE!
+Backend: 
+1. (channel list--edit,del,unpublish) Done! 
+2. make ALL GETs to SESSION variables 
+3. (post list -- add,del,add these two in listpage) DONE! 
+4. (settings -- edit,create n del accts) DONE!
